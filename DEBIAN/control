@@ -1,0 +1,10 @@
+package: hello-world-consul
+Version: 0.0.1
+Architecture: amd64
+Section: admin
+Essential: no
+Priority: optional
+Pre-Depends: supervisor
+Depends: hello-world  (>= 0.0.1), consul (>= 1.8.3)
+Maintainer: opunix <francsic.simon@evalgo.org>
+Description: Hello World Consul specific Debian example package for testing
