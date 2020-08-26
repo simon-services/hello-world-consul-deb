@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cp -fv /opt/github.com/simon.services/hello-world/consul.d/helloworld.json /opt/github.com/simon.services/consul/consul.d/
-/opt/github.com/simon.services/consul/bin/consul reload
+cp -fv /opt/simon.services/hello-world/consul.d/helloworld.json /opt/simon.services/consul/consul.d/
+/opt/simon.services/consul/bin/consul reload
 supervisorctl update helloworld-proxy
